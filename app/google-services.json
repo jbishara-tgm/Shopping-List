@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "589590717018",
+    "firebase_url": "https://shoppinglist-e3642.firebaseio.com",
+    "project_id": "shoppinglist-e3642",
+    "storage_bucket": "shoppinglist-e3642.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589590717018:android:bc0f2231361212e7",
+        "android_client_info": {
+          "package_name": "jbishara.shoppinglist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589590717018-cjsp5c7nc03uvjo4nb0vfjrd9enk6177.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWM-LjP4fUiEAQ7JJcWsRYGcoQoURhhzc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
