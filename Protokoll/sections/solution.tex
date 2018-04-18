@@ -84,6 +84,15 @@ In Java muss man um Daten zu pushen lediglich eine Instanz der DB erstellen und 
 \begin{lstlisting}
 databaseReference = FirebaseDatabase.getInstance().getReference();
 
- databaseReference.push().setValue(taskObject);
+databaseReference.push().setValue(taskObject);
 \end{lstlisting}
-\section{APK builden}
+
+Datensätze können folgendermaßen gelöscht werden:
+\begin{lstlisting}
+String taskTitle = singleSnapshot.getValue(String.class);
+for(int i = 0; i < allTask.size(); i++){
+	if(allTask.get(i).getTask().equals(taskTitle)){
+		allTask.remove(i);
+	}
+}
+\end{lstlisting}
